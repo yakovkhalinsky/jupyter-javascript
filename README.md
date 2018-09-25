@@ -1,6 +1,6 @@
 # jupyter-javascript
 
-A Jupyter Docker image with Node.js and ijavascript installed
+A Jupyter Docker image with Jupyterlab, Node.js and ijavascript installed
 
 ### ports
 
@@ -24,4 +24,4 @@ docker run \
 
 `build.sh` - example build script using `Dockerfile` in this repository.
 
-`start.sh` - example start script using current directory that contains a `notebooks` directory to mount into container to save data on your host. 
+`start.sh` - example start script using current directory that contains a `notebooks` directory to mount into container to save data on your host.
